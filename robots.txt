@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Dodati kada domen bude potvrđen i sitemap.xml (CG + EN) kreiran:
+# Sitemap: https://<konacni-domen>/sitemap.xml

@@ -1,0 +1,48 @@
+/* KP Fitness color tokens */
+:root{
+/* Base palette (brand-given) */
+--kp-ivory:#F7F5F0;      /* Primary background — Warm Ivory */
+--kp-sand:#EBE4DA;       /* Secondary background — Soft Sand */
+--kp-white:#FFFFFF;      /* Surface — Pure White */
+--kp-bronze:#B99E7B;     /* Brand accent — Warm Bronze */
+--kp-espresso:#3F342B;   /* Primary text — Warm Espresso */
+--kp-brown:#66574A;      /* Secondary text — Soft Brown */
+/* Derived tints & shades (same hue family) */
+--kp-sand-deep:#DED4C6;  /* hairlines on sand, pressed fills */
+--kp-linen:#F1ECE4;      /* hover fill on ivory */
+--kp-bronze-hover:#AA8E6A;
+--kp-bronze-press:#9A7F5C;
+--kp-bronze-soft:#E4D8C7;/* tinted chips, selection */
+--kp-bronze-ink:#7D6649; /* bronze for text — passes 4.5:1 on ivory */
+--kp-taupe:#8C7D6F;      /* tertiary text, placeholders (large/aux only) */
+--kp-line:#E3DBCF;       /* default hairline */
+--kp-line-strong:#CFC3B3;/* input borders */
+/* Status — muted, warm; no greens or brights */
+--kp-success:#6E6248; --kp-success-bg:#EEE8DC;
+--kp-warning:#A0723A; --kp-warning-bg:#F3E9DA;
+--kp-error:#9C4A3A;   --kp-error-bg:#F4E4DE;
+
+/* Semantic aliases */
+--bg-page:var(--kp-ivory);
+--bg-section:var(--kp-sand);
+--bg-inverse:var(--kp-espresso);
+--surface-card:var(--kp-white);
+--surface-raised:var(--kp-white);
+--surface-hover:var(--kp-linen);
+--surface-overlay:rgba(63,52,43,.36);
+--text-heading:var(--kp-espresso);
+--text-body:var(--kp-espresso);
+--text-muted:var(--kp-brown);
+--text-subtle:var(--kp-taupe);
+--text-accent:var(--kp-bronze-ink);
+--text-on-accent:var(--kp-espresso);
+--text-on-inverse:var(--kp-ivory);
+--accent:var(--kp-bronze);
+--accent-hover:var(--kp-bronze-hover);
+--accent-press:var(--kp-bronze-press);
+--accent-soft:var(--kp-bronze-soft);
+--border-subtle:var(--kp-line);
+--border-default:var(--kp-line-strong);
+--border-strong:var(--kp-espresso);
+--focus-ring:rgba(185,158,123,.45);
+}
